@@ -8,4 +8,22 @@ public class Document {
         this.titre = titre;
     }
 
+    public Document() {
+    }
+
+    public int getNumEnregistrement() {
+        return numEnregistrement;
+    }
+
+    public void setNumEnregistrement(int numEnregistrement) {
+        this.numEnregistrement = numEnregistrement;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
 }
