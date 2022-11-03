@@ -24,4 +24,10 @@ public class Dictionnaire extends Document {
     public void setNbTomes(int nbTomes) {
         this.nbTomes = nbTomes;
     }
+
+
+    // toString
+    public String toString() {
+        return "Dictionnaire [langue=" + langue + ", nbTomes=" + nbTomes + "]";
+    }
 }

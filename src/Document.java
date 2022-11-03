@@ -26,4 +26,8 @@ public class Document {
     public void setTitre(String titre) {
         this.titre = titre;
     }
+
+    public String toString() {
+        return "Document [numEnregistrement=" + numEnregistrement + ", titre=" + titre + "]";
+    }
 }

@@ -27,4 +27,8 @@ public class Livre extends Document {
     public void setNbPages(int nbPages) {
         this.nbPages = nbPages;
     }
+
+    public String toString() {
+        return "Livre [auteur=" + auteur + ", nbPages=" + nbPages + "]";
+    }
 }
